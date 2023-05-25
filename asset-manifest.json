@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/trinityhc-web/static/css/main.41b7aaef.css",
-    "main.js": "/trinityhc-web/static/js/main.9a08c679.js",
+    "main.css": "/trinityhc-web/static/css/main.f63a2940.css",
+    "main.js": "/trinityhc-web/static/js/main.64396cb5.js",
     "static/js/787.fd6d3a18.chunk.js": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js",
+    "static/media/sg_biz_ctr.png": "/trinityhc-web/static/media/sg_biz_ctr.3cf1b9e9a4d2fe400ce4.png",
+    "static/media/services-icon.png": "/trinityhc-web/static/media/services-icon.aae117595111de88a3d3.png",
+    "static/media/underconstruction.png": "/trinityhc-web/static/media/underconstruction.8d443dcded5158b6e1cc.png",
     "static/media/logo.png": "/trinityhc-web/static/media/logo.0d3bd71341598b48c73f.png",
     "index.html": "/trinityhc-web/index.html",
-    "main.41b7aaef.css.map": "/trinityhc-web/static/css/main.41b7aaef.css.map",
-    "main.9a08c679.js.map": "/trinityhc-web/static/js/main.9a08c679.js.map",
+    "main.f63a2940.css.map": "/trinityhc-web/static/css/main.f63a2940.css.map",
+    "main.64396cb5.js.map": "/trinityhc-web/static/js/main.64396cb5.js.map",
     "787.fd6d3a18.chunk.js.map": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41b7aaef.css",
-    "static/js/main.9a08c679.js"
+    "static/css/main.f63a2940.css",
+    "static/js/main.64396cb5.js"
   ]
 }
