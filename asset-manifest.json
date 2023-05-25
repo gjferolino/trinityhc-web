@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/trinityhc-web/static/css/main.41b7aaef.css",
+    "main.js": "/trinityhc-web/static/js/main.9a08c679.js",
+    "static/js/787.fd6d3a18.chunk.js": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js",
+    "static/media/logo.png": "/trinityhc-web/static/media/logo.0d3bd71341598b48c73f.png",
+    "index.html": "/trinityhc-web/index.html",
+    "main.41b7aaef.css.map": "/trinityhc-web/static/css/main.41b7aaef.css.map",
+    "main.9a08c679.js.map": "/trinityhc-web/static/js/main.9a08c679.js.map",
+    "787.fd6d3a18.chunk.js.map": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41b7aaef.css",
+    "static/js/main.9a08c679.js"
+  ]
+}
