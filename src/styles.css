@@ -1,5 +1,73 @@
 /* styles.css */
 
+/*UNDER CONSTRUCTION*/
+.construction-image {
+    width: 60%;
+    height: auto;
+}
+
+/*HOME PAGE*/
+.sgBizCtrImage {
+    width: 100%;
+    height: auto;
+}
+
+.servicesIcon {
+    width: 50%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .servicesIcon {
+        width: 70%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .servicesIcon {
+        width: 90%;
+    }
+  }
+
+.home-custom-container-image {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #124e91
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #124e91;
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  @media (max-width: 768px) {
+    .description {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .description {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .spacer {
+    height: 1em;
+  }
+
+/*MAIN HEADERS, MENU, ETC*/
 @media (max-width: 768px) {
     .logo {
       width: 236px;
@@ -11,7 +79,6 @@
     max-width: 100% !important;
     padding: 0.2rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
     text-align: center;
     background-color: #124e91;
   }
@@ -22,6 +89,7 @@
   
   .icon-text {
     margin-left: 0.3rem;
+    margin-right: 0.5rem;
     font-weight: bold;
     color: #124e91;
   }
@@ -50,9 +118,20 @@
   }
   
   #nav-custom {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     background-color: #124e91;
     justify-content: center;
   }
 
+
+/*OFF CANVAS*/
+  .offcanvas-body {
+    background-color: #124e91;
+  }
+
+  a.nav-link.active.nav-link {
+    padding: 10px;
+}
+
+a.nav-link.nav-link {
+    padding: 10px;
+}

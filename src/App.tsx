@@ -58,68 +58,62 @@ const App = () => {
           
 
           <Offcanvas show={show} onHide={handleClose} placement="end" id="offcanvasNavbar">
-            <Offcanvas.Header closeButton>
-              <Offcanvas.Title>Menu</Offcanvas.Title>
-            </Offcanvas.Header>
-            <Offcanvas.Body>
-              <Nav className="me-auto">
-                <Nav.Link
-                  as={Link}
-                  to="/"
-                  className="nav-link"
-                  active={activeKey === '/'}
-                  onClick={() => handleNavSelect('/')}
-                >
-                  Home
-                </Nav.Link>
-                <Nav.Link
-                  as={Link}
-                  to="/about"
-                  className="nav-link"
-                  active={activeKey === '/about'}
-                  onClick={() => handleNavSelect('/about')}
-                >
-                  About
-                </Nav.Link>
-                <Nav.Link
-                  as={Link}
-                  to="/services"
-                  className="nav-link"
-                  active={activeKey === '/services'}
-                  onClick={() => handleNavSelect('/services')}
-                >
-                  Services
-                </Nav.Link>
-                <Nav.Link
-                  as={Link}
-                  to="/latest-news"
-                  className="nav-link"
-                  active={activeKey === '/latest-news'}
-                  onClick={() => handleNavSelect('/latest-news')}
-                >
-                  Latest News
-                </Nav.Link>
-                <Nav.Link
-                  as={Link}
-                  to="/accreditation"
-                  className="nav-link"
-                  active={activeKey === '/accreditation'}
-                  onClick={() => handleNavSelect('/accreditation')}
-                >
-                  Accreditation
-                </Nav.Link>
-                <Nav.Link
-                  as={Link}
-                  to="/contact"
-                  className="nav-link"
-                  active={activeKey === '/contact'}
-                  onClick={() => handleNavSelect('/contact')}
-                >
-                  Contact
-                </Nav.Link>
-              </Nav>
-            </Offcanvas.Body>
-          </Offcanvas>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>MENU</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          <Nav className="me-auto">
+            <Nav.Link
+              as={Link}
+              to="/"
+              className={`nav-link ${activeKey === '/' ? 'active' : ''}`}
+              onClick={() => handleNavSelect('/')}
+            >
+              HOME
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to="/about"
+              className={`nav-link ${activeKey === '/about' ? 'active' : ''}`}
+              onClick={() => handleNavSelect('/about')}
+            >
+              ABOUT
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to="/services"
+              className={`nav-link ${activeKey === '/services' ? 'active': ''}`}
+              onClick={() => handleNavSelect('/services')}
+            >
+              SERVICES
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to="/latest-news"
+              className={`nav-link ${activeKey === '/latest-news' ? 'active' : ''}`}
+              onClick={() => handleNavSelect('/latest-news')}
+            >
+              LATEST NEWS
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to="/accreditation"
+              className={`nav-link ${activeKey === '/accreditation' ? 'active' : ''}`}
+              onClick={() => handleNavSelect('/accreditation')}
+            >
+              ACCREDITATION
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to="/contact"
+              className={`nav-link ${activeKey === '/contact' ? 'active' : ''}`}
+              onClick={() => handleNavSelect('/contact')}
+            >
+              CONTACT
+            </Nav.Link>
+          </Nav>
+        </Offcanvas.Body>
+      </Offcanvas>
         </Container>
       </Navbar>
 
@@ -131,7 +125,7 @@ const App = () => {
           active={activeKey === '/'}
           onClick={() => handleNavSelect('/')}
         >
-          Home
+          HOME
         </Nav.Link>
         <Nav.Link
           as={Link}
@@ -140,7 +134,7 @@ const App = () => {
           active={activeKey === '/about'}
           onClick={() => handleNavSelect('/about')}
         >
-          About
+          ABOUT
         </Nav.Link>
         <Nav.Link
           as={Link}
@@ -149,7 +143,7 @@ const App = () => {
           active={activeKey === '/services'}
           onClick={() => handleNavSelect('/services')}
         >
-          Services
+          SERVICES
         </Nav.Link>
         <Nav.Link
           as={Link}
@@ -158,7 +152,7 @@ const App = () => {
           active={activeKey === '/latest-news'}
           onClick={() => handleNavSelect('/latest-news')}
         >
-          Latest News
+          LATEST NEWS
         </Nav.Link>
         <Nav.Link
           as={Link}
@@ -167,7 +161,7 @@ const App = () => {
           active={activeKey === '/accreditation'}
           onClick={() => handleNavSelect('/accreditation')}
         >
-          Accreditation
+          ACCREDITATION
         </Nav.Link>
         <Nav.Link
           as={Link}
@@ -176,7 +170,7 @@ const App = () => {
           active={activeKey === '/contact'}
           onClick={() => handleNavSelect('/contact')}
         >
-          Contact
+          CONTACT
         </Nav.Link>
       </Nav>
 

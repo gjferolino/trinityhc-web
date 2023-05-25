@@ -1,10 +1,16 @@
-import React from 'react';
 import { Container } from 'react-bootstrap';
+import constructionImage from '../assets/underconstruction.png';
 
 const Contact = () => (
-  <Container>
-    <h1>Contact Page</h1>
-    <p>Welcome to our website...</p>
+  <Container className="text-center">
+    <div className="spacer"></div>  
+    <div className="spacer"></div>  
+    <div className="spacer"></div>  
+  <div className="spacer"></div>  
+  <img src={constructionImage} alt="Under Construction" className="construction-image" />
+  <div className="spacer"></div>  
+  <div className="spacer"></div>
+  <div className="spacer"></div>
   </Container>
 );
 
