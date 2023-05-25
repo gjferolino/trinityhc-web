@@ -1,0 +1,11 @@
+import React from 'react';
+import { Container } from 'react-bootstrap';
+
+const About = () => (
+  <Container>
+    <h1>About Page</h1>
+    <p>Welcome to our website...</p>
+  </Container>
+);
+
+export default About;
