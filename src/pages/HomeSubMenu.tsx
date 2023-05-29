@@ -10,18 +10,18 @@ const HomeSubMenu = () => (
       <div className="row">
         <div className="col">
           <br />
-          <h1 className="align-left">Why Us?</h1>
+          <h1 className="align-left text-color-red">Why Us?</h1>
           <br />
         </div>
       </div>
       <div className="row">
-        <div className="col align-left">
+        <div className="col align-left text-color-blue">
           <p>
             <b>Full Facilities Centres</b>
             <br />
             Our one-stop medical centres are fully equipped with:
             <br /> <br />
-            <ul>
+            <ul className="text-color-grey">
               <li>X-rays</li>
               <li>Spirometry</li>
               <li>Audiometry</li>
@@ -33,7 +33,7 @@ const HomeSubMenu = () => (
             corporate.
           </p>
         </div>
-        <div className="col align-left">
+        <div className="col align-left text-color-blue">
           <p>
             <b>Ease of Access</b>
             <br /> <br />
@@ -52,16 +52,16 @@ const HomeSubMenu = () => (
       <div className="row">
         <div className="col">
           <br />
-          <h1 className="align-left">How We Can Help?</h1>
+          <h1 className="align-left text-color-red">How We Can Help?</h1>
           <br />
         </div>
       </div>
       <div className="row">
-        <div className="col align-left">
+        <div className="col align-left text-color-blue">
           <p>
             <b>Medical Support for the HR Department</b>
             <br /> <br />
-            <ul>
+            <ul className="text-color-grey">
               <li>Fitness to work</li>
               <li>Return to Work assessment</li>
               <li>Dealing with employee queries on health</li>
@@ -80,17 +80,17 @@ const HomeSubMenu = () => (
             <br /> <br />
             Some common issues that we help our clients in are:
             <br /> <br />
-            <ul>
+            <ul className="text-color-grey">
               <li>Compliance with local or international guidelines.</li>
               <li>Employees' work fitness.</li>
             </ul>
           </p>
         </div>
-        <div className="col align-left">
+        <div className="col align-left text-color-blue">
           <p>
             <b>Medical Support for all Corporate Occupational Health Issues</b>
             <br /> <br />
-            <ul>
+            <ul className="text-color-grey">
               <li>
                 Assessment and advice on fitness of your employee at work.
               </li>
@@ -120,13 +120,13 @@ const HomeSubMenu = () => (
     <div className="row div-who-we-serve">
       <div className="col">
         <br />
-        <h1 className="align-center">Who We Serve</h1>
+        <h1 className="align-center text-color-red">Who We Serve</h1>
       </div>
     </div>
-    <div className="row div-who-we-serve">
+    <div className="row div-who-we-serve text-color-blue">
       <div className="col align-left">
         <br />
-        <ul>
+        <ul className="text-color-grey">
           <li>Fitness to work</li>
           <li>Return to Work assessment</li>
           <li>Dealing with employee queries on health</li>
@@ -135,7 +135,7 @@ const HomeSubMenu = () => (
       </div>
       <div className="col align-left">
         <br />
-        <ul>
+        <ul className="text-color-grey">
           <li>Fitness to work</li>
           <li>Return to Work assessment</li>
           <li>Dealing with employee queries on health</li>
@@ -144,7 +144,7 @@ const HomeSubMenu = () => (
       </div>
       <div className="col align-left">
         <br />
-        <ul>
+        <ul className="text-color-grey">
           <li>Fitness to work</li>
           <li>Return to Work assessment</li>
           <li>Dealing with employee queries on health</li>
@@ -153,65 +153,119 @@ const HomeSubMenu = () => (
       </div>
     </div>
     <div className="row div-latest-news">
-      <div className="col">
+      <div className="col-lg-12">
         <br />
-        <h1 className="align-center">Latest News</h1>
+        <h1 className="align-center text-color-red">Latest News</h1>
         <br />
         <div className="carousel-wrapper">
           <Carousel indicators={false} controls={true}>
             <Carousel.Item>
               <Row>
-                <Col className="carousel_item_left">
+                <Col className="col-md-4">
                   <img
                     src={carouselImage1}
                     alt="Company logo"
                     className="d-block w-100"
                   />
-                  <p className="align-center">Column 1</p>
+                  <div className="text-padding text-color-blue">
+                    <p className="align-left">
+                      <b>Lorem Ipsum Dolor Sit Amet Consectetur</b>
+                      <br />
+                      Sed euismod, neque eu convallis molestie, tortor augue
+                      tempor tortor, eget suscipit turpis eros quis purus.
+                      <br /> <br />
+                      <b>Read More</b>
+                    </p>
+                  </div>
                 </Col>
-                <Col className="carousel_item_center">
+                <Col className="col-md-4">
                   <img
                     src={carouselImage2}
                     alt="Company logo"
                     className="d-block w-100"
                   />
-                  <p className="align-center">Column 2</p>
+                  <div className="text-padding text-color-blue">
+                    <p className="align-left">
+                      <b>Lorem Ipsum Dolor Sit Amet Consectetur</b>
+                      <br />
+                      Sed euismod, neque eu convallis molestie, tortor augue
+                      tempor tortor, eget suscipit turpis eros quis purus.
+                      <br /> <br />
+                      <b>Read More</b>
+                    </p>
+                  </div>
                 </Col>
-                <Col className="carousel_item_right">
+                <Col className="col-md-4">
                   <img
                     src={carouselImage3}
                     alt="Company logo"
                     className="d-block w-100"
                   />
-                  <p className="align-center">Column 3</p>
+                  <div className="text-padding text-color-blue">
+                    <p className="align-left">
+                      <b>Lorem Ipsum Dolor Sit Amet Consectetur</b>
+                      <br />
+                      Sed euismod, neque eu convallis molestie, tortor augue
+                      tempor tortor, eget suscipit turpis eros quis purus.
+                      <br /> <br />
+                      <b>Read More</b>
+                    </p>
+                  </div>
                 </Col>
               </Row>
             </Carousel.Item>
             <Carousel.Item>
               <Row>
-                <Col className="carousel_item_left">
+                <Col className="col-md-4">
                   <img
                     src={carouselImage1}
                     alt="Company logo"
                     className="d-block w-100"
                   />
-                  <p className="align-center">Column 4</p>
+                  <div className="text-padding text-color-blue">
+                    <p className="align-left">
+                      <b>Lorem Ipsum Dolor Sit Amet Consectetur</b>
+                      <br />
+                      Sed euismod, neque eu convallis molestie, tortor augue
+                      tempor tortor, eget suscipit turpis eros quis purus.
+                      <br /> <br />
+                      <b>Read More</b>
+                    </p>
+                  </div>
                 </Col>
-                <Col className="carousel_item_center">
+                <Col className="col-md-4">
                   <img
                     src={carouselImage2}
                     alt="Company logo"
                     className="d-block w-100"
                   />
-                  <p className="align-center">Column 5</p>
+                  <div className="text-padding text-color-blue">
+                    <p className="align-left">
+                      <b>Lorem Ipsum Dolor Sit Amet Consectetur</b>
+                      <br />
+                      Sed euismod, neque eu convallis molestie, tortor augue
+                      tempor tortor, eget suscipit turpis eros quis purus.
+                      <br /> <br />
+                      <b>Read More</b>
+                    </p>
+                  </div>
                 </Col>
-                <Col className="carousel_item_right">
+                <Col className="col-md-4">
                   <img
                     src={carouselImage3}
                     alt="Company logo"
                     className="d-block w-100"
                   />
-                  <p className="align-center">Column 6</p>
+                  <div className="text-padding text-color-blue">
+                    <p className="align-left">
+                      <b>Lorem Ipsum Dolor Sit Amet Consectetur</b>
+                      <br />
+                      Sed euismod, neque eu convallis molestie, tortor augue
+                      tempor tortor, eget suscipit turpis eros quis purus.
+                      <br /> <br />
+                      <b>Read More</b>
+                    </p>
+                  </div>
                 </Col>
               </Row>
             </Carousel.Item>
@@ -219,11 +273,6 @@ const HomeSubMenu = () => (
           <div className="spacer"></div>
           <div className="spacer"></div>
           <div className="spacer"></div>
-          <div className="button-container">
-            <Button className="overlay-button">
-              <h4 className="custom-text-margin">Get In Touch With Us</h4>
-            </Button>
-          </div>
         </div>
       </div>
     </div>
