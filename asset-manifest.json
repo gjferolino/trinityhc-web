@@ -1,19 +1,34 @@
 {
   "files": {
-    "main.css": "/trinityhc-web/static/css/main.f63a2940.css",
-    "main.js": "/trinityhc-web/static/js/main.64396cb5.js",
+    "main.css": "/trinityhc-web/static/css/main.ca4a7925.css",
+    "main.js": "/trinityhc-web/static/js/main.046249ec.js",
     "static/js/787.fd6d3a18.chunk.js": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js",
+    "static/media/oil-platform.png": "/trinityhc-web/static/media/oil-platform.e19b2f42a01fd10cf2dd.png",
     "static/media/sg_biz_ctr.png": "/trinityhc-web/static/media/sg_biz_ctr.3cf1b9e9a4d2fe400ce4.png",
+    "static/media/injured-hand.png": "/trinityhc-web/static/media/injured-hand.4b075a0c73abbf47fcfa.png",
+    "static/media/chem-pollution.png": "/trinityhc-web/static/media/chem-pollution.58385a3f4dae96445ae6.png",
+    "static/media/stethoscope.png": "/trinityhc-web/static/media/stethoscope.5555d8402a3f937f8c42.png",
+    "static/media/sg_sunset.png": "/trinityhc-web/static/media/sg_sunset.35d3401787618df04985.png",
+    "static/media/divers.png": "/trinityhc-web/static/media/divers.26b27dfb7ff86107a354.png",
+    "static/media/carousell_image_1.png": "/trinityhc-web/static/media/carousell_image_1.a3eb7d469feca2828010.png",
+    "static/media/warehouse-worker.png": "/trinityhc-web/static/media/warehouse-worker.bdd2575fde526b0099da.png",
+    "static/media/carousell_image_2.png": "/trinityhc-web/static/media/carousell_image_2.894f03476791866bfc80.png",
+    "static/media/carousell_image_3.png": "/trinityhc-web/static/media/carousell_image_3.a062a65ff3b493304482.png",
+    "static/media/chem-worker.png": "/trinityhc-web/static/media/chem-worker.b189bbd372c2f589d4c2.png",
+    "static/media/blood-test.png": "/trinityhc-web/static/media/blood-test.c5c69162908458b4d2d0.png",
     "static/media/services-icon.png": "/trinityhc-web/static/media/services-icon.aae117595111de88a3d3.png",
     "static/media/underconstruction.png": "/trinityhc-web/static/media/underconstruction.8d443dcded5158b6e1cc.png",
+    "static/media/ivcon.png": "/trinityhc-web/static/media/ivcon.3e20c02378568c59d994.png",
+    "static/media/commicon.png": "/trinityhc-web/static/media/commicon.a36b7501746446ca04da.png",
     "static/media/logo.png": "/trinityhc-web/static/media/logo.0d3bd71341598b48c73f.png",
+    "static/media/INTSOSLogo.png": "/trinityhc-web/static/media/INTSOSLogo.10c8ff4f6a0a1268aaf0.png",
     "index.html": "/trinityhc-web/index.html",
-    "main.f63a2940.css.map": "/trinityhc-web/static/css/main.f63a2940.css.map",
-    "main.64396cb5.js.map": "/trinityhc-web/static/js/main.64396cb5.js.map",
+    "main.ca4a7925.css.map": "/trinityhc-web/static/css/main.ca4a7925.css.map",
+    "main.046249ec.js.map": "/trinityhc-web/static/js/main.046249ec.js.map",
     "787.fd6d3a18.chunk.js.map": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f63a2940.css",
-    "static/js/main.64396cb5.js"
+    "static/css/main.ca4a7925.css",
+    "static/js/main.046249ec.js"
   ]
 }
