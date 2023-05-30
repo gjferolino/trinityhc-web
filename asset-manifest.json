@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trinityhc-web/static/css/main.ca4a7925.css",
-    "main.js": "/trinityhc-web/static/js/main.046249ec.js",
+    "main.css": "/trinityhc-web/static/css/main.37f19c08.css",
+    "main.js": "/trinityhc-web/static/js/main.49501004.js",
     "static/js/787.fd6d3a18.chunk.js": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js",
     "static/media/oil-platform.png": "/trinityhc-web/static/media/oil-platform.e19b2f42a01fd10cf2dd.png",
     "static/media/sg_biz_ctr.png": "/trinityhc-web/static/media/sg_biz_ctr.3cf1b9e9a4d2fe400ce4.png",
@@ -23,12 +23,12 @@
     "static/media/logo.png": "/trinityhc-web/static/media/logo.0d3bd71341598b48c73f.png",
     "static/media/INTSOSLogo.png": "/trinityhc-web/static/media/INTSOSLogo.10c8ff4f6a0a1268aaf0.png",
     "index.html": "/trinityhc-web/index.html",
-    "main.ca4a7925.css.map": "/trinityhc-web/static/css/main.ca4a7925.css.map",
-    "main.046249ec.js.map": "/trinityhc-web/static/js/main.046249ec.js.map",
+    "main.37f19c08.css.map": "/trinityhc-web/static/css/main.37f19c08.css.map",
+    "main.49501004.js.map": "/trinityhc-web/static/js/main.49501004.js.map",
     "787.fd6d3a18.chunk.js.map": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca4a7925.css",
-    "static/js/main.046249ec.js"
+    "static/css/main.37f19c08.css",
+    "static/js/main.49501004.js"
   ]
 }
