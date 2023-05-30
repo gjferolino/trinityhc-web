@@ -38,7 +38,7 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <Router basename="trinityhc-web">
       <Navbar className="navbar-custom" expand="lg">
         <Container fluid>
           <Navbar.Brand href="#home">
@@ -102,7 +102,7 @@ const App = () => {
                   active={activeKey === "/services"}
                   onClick={() => handleNavSelect("/services")}
                 >
-                  <NavDropdown.Item href="/services/gp-services">
+                  <NavDropdown.Item as={Link} to="/services/gp-services">
                     GENERAL PRACTITIONER SERVICES
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">
@@ -113,7 +113,7 @@ const App = () => {
                       <li>Pre-employment/Re-employment <br/>Medical Examination</li>
                     </ul>
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/services/fitness-to-work">
+                  <NavDropdown.Item as={Link} to="/services/fitness-to-work">
                     <ul className="no-margin-bottom">
                       <li>Fitness To Work Assessment</li>
                     </ul>
@@ -131,7 +131,7 @@ const App = () => {
                   <NavDropdown.Item href="#action/3.3">
                     OCCUPATIONAL HEALTH
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/services/chemical-exposure">
+                  <NavDropdown.Item as={Link} to="/services/chemical-exposure">
                     <ul className="no-margin-bottom">
                       <li>Chemical Exposure Surveillance</li>
                     </ul>
@@ -141,7 +141,7 @@ const App = () => {
                       <li>Hearing & Noise Monitoring</li>
                     </ul>
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/services/offshore-diving">
+                  <NavDropdown.Item as={Link} to="/services/offshore-diving">
                     OFFSHORE & DIVING
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.5">
@@ -231,7 +231,7 @@ const App = () => {
           active={activeKey === "/services"}
           onClick={() => handleNavSelect("/services")}
         >
-          <NavDropdown.Item href="/services/gp-services">
+          <NavDropdown.Item as={Link} to="/services/gp-services">
             GENERAL PRACTITIONER SERVICES
           </NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">
@@ -242,7 +242,7 @@ const App = () => {
               <li>Pre-employment/Re-employment Medical Examination</li>
             </ul>
           </NavDropdown.Item>
-          <NavDropdown.Item href="/services/fitness-to-work">
+          <NavDropdown.Item as={Link} to="/services/fitness-to-work">
             <ul className="no-margin-bottom">
               <li>Fitness To Work Assessment</li>
             </ul>
@@ -260,7 +260,7 @@ const App = () => {
           <NavDropdown.Item href="#action/3.3">
             OCCUPATIONAL HEALTH
           </NavDropdown.Item>
-          <NavDropdown.Item href="/services/chemical-exposure">
+          <NavDropdown.Item as={Link} to="/services/chemical-exposure">
             <ul className="no-margin-bottom">
               <li>Chemical Exposure Surveillance</li>
             </ul>
@@ -270,7 +270,7 @@ const App = () => {
               <li>Hearing & Noise Monitoring</li>
             </ul>
           </NavDropdown.Item>
-          <NavDropdown.Item href="/services/offshore-diving">
+          <NavDropdown.Item as={Link} to="/services/offshore-diving">
             OFFSHORE & DIVING
           </NavDropdown.Item>
           <NavDropdown.Item href="#action/3.5">

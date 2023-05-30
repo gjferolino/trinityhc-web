@@ -86,6 +86,8 @@ const OffshoreDiving = () => (
             </ul>
           </p>
         </div>
+        <div className="spacer"></div>
+        <div className="spacer"></div>
         <div className="col-md-1"></div>
         <div className="row background-blue">
           <div className="spacer"></div>
@@ -96,7 +98,8 @@ const OffshoreDiving = () => (
           </Button>
           <div className="spacer"></div>
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-2"></div>
+            <div className="col-md-4">
               <div className="custom-col-description p-3 align-left">
                 <b className="text-color-red">Convenience</b>
                 <div className="spacer"></div>
@@ -129,8 +132,8 @@ const OffshoreDiving = () => (
                 </ul>
               </div>
             </div>
-            <div className="col-md-6 align-right">
-              <img src={commIcon} alt="icon" className="img-70" />
+            <div className="col-md-6 p-3 align-right">
+              <img src={commIcon} alt="icon" className="img-100" />
             </div>
           </div>
         </div>
@@ -139,21 +142,24 @@ const OffshoreDiving = () => (
           <div className="description align-left">
             <div className="spacer"></div>
             <div className="row">
-              <div className="col">
+              <div className="col-md-2"></div>
+              <div className="col-md-4 p-3">
                 <p className="text-color-blue">Our Partner</p>
                 <img src={intSosLogo} alt="logo" className="sgBizCtrImage" />
               </div>
-              <div className="col">
+              <div className="col-md-4 p-3">
                 <p className="text-color-blue">Useful Link</p>
                 <p className="text-color-blue">OEUK</p>
                 <p className="text-color-grey">
                   https://oeuk.org.uk/oeuk-register-of-examining-uk-doctors/
                 </p>
               </div>
+              <div className="col-md-2"></div>
             </div>
             <br />
           </div>
         </div>
+        <div className="spacer"></div>
       </div>
     </Container>
   </div>
