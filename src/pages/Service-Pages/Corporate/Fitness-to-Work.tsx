@@ -112,14 +112,14 @@ const FitnessToWork = () => (
           <div className="content-container">
             <div className="description align-left">
               <b className="text-color-red">References</b>
-              <p className="text-color-blue">
+              <p className="no-margin-bottom text-color-blue">
                 Ministry of Manpower (MOM) Fitness for Work - Singapore
               </p>
               <p className="text-color-grey">
                 www.mom.gov.sg/workplace-safety-and-health/major-hazard-installations/fitness-for-work
               </p>
               <br />
-              <p className="text-color-blue">
+              <p className="no-margin-bottom text-color-blue">
                 Workplace Safety and Health (Medical Examinations Examinations)
                 Regulation 2011
               </p>

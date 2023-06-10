@@ -258,6 +258,10 @@ a.dropdown-item {
   color: #124e91;
 }
 
+.text-color-blue-bold{
+  color: #124e91;
+  font-weight: bold;
+}
 .text-color-red {
   color: #9f1d21;
 }
@@ -439,6 +443,10 @@ a.dropdown-item {
 }
 .background-blue {
   background: #d0dce9;
+}
+
+.background-yellow {
+  background: #fff0d1;
 }
 
 .sgBizCtrImage {

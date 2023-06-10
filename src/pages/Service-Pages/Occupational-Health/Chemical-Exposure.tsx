@@ -9,16 +9,13 @@ const ChemicalExposure = () => (
       <div className="content-container">
         <div className="spacer"></div>
         <div className="spacer"></div>
-        <h1 className="title">
-          Fitness to Work, Rehabilitation & Return to Work (RTW) Assessment
-        </h1>
+        <h1 className="title">Chemical Exposure Surveillance</h1>
         <div className="spacer"></div>
         <p className="description">
-          Our doctors are MOM-registered Designated Workplace Doctors (DWDs),
-          qualified and equipped to assess and advise on the fitness of your
-          employee at work. This minimizes the impact of employee ill health on
-          the company, resulting in better work productivity and reduced health
-          cost.
+          We provide advice to help companies comply with statutory requirements
+          or regulations pertaining to exposure to chemical hazards as mandated
+          by the Ministry of Manpower (MOM) under the Workplace Safety and
+          Health (Medical Examinations) Regulations 2011.
         </p>
         <div className="spacer"></div>
       </div>

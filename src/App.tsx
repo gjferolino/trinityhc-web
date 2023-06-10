@@ -11,11 +11,12 @@ import {
 } from "react-bootstrap";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Services from "./pages/Services";
 import GeneralPractitioner from "./pages/Service-Pages/General-Practitioner";
 import FitnessToWork from "./pages/Service-Pages/Corporate/Fitness-to-Work";
 import ChemicalExposure from "./pages/Service-Pages/Occupational-Health/Chemical-Exposure";
 import OffshoreDiving from "./pages/Service-Pages/Offshore-Diving";
+import MaritimeSeafaring from "./pages/Service-Pages/Maritime-Seafaring";
+import DrugAlcoholScreen from "./pages/Service-Pages/Drug-Alcohol-Screening";
 import LatestNews from "./pages/LatestNews";
 import Accreditation from "./pages/Accreditation";
 import Contact from "./pages/Contact";
@@ -25,6 +26,7 @@ import mailIcon from "./assets/mail_icon.png";
 import phoneIcon from "./assets/phone_icon.png";
 import phoneIconV2 from "./assets/phone_icon_2.png";
 import "./styles.css"; // Import the styles.css file
+
 
 const App = () => {
   const [show, setShow] = useState(false);
@@ -144,10 +146,10 @@ const App = () => {
                   <NavDropdown.Item as={Link} to="/services/offshore-diving">
                     OFFSHORE & DIVING
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.5">
+                  <NavDropdown.Item as={Link} to="/services/maritime-seafaring">
                     MARITIME & SEAFARING
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.6">
+                  <NavDropdown.Item as={Link} to="/services/drug-alcohol-screening">
                     DRUG & ALCOHOL SCREENING
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.7">
@@ -273,10 +275,10 @@ const App = () => {
           <NavDropdown.Item as={Link} to="/services/offshore-diving">
             OFFSHORE & DIVING
           </NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.5">
+          <NavDropdown.Item as={Link} to="/services/maritime-seafaring">
             MARITIME & SEAFARING
           </NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.6">
+          <NavDropdown.Item as={Link} to="/services/drug-alcohol-screening">
             DRUG & ALCOHOL SCREENING
           </NavDropdown.Item>
           <NavDropdown.Item href="#action/3.7">
@@ -326,6 +328,8 @@ const App = () => {
         <Route path="/services/fitness-to-work" element={<FitnessToWork />} />
         <Route path="/services/chemical-exposure" element={<ChemicalExposure />} />
         <Route path="/services/offshore-diving" element={<OffshoreDiving />} />
+        <Route path="/services/maritime-seafaring" element={<MaritimeSeafaring />} />
+        <Route path="/services/drug-alcohol-screening" element={<DrugAlcoholScreen />} />
         <Route path="/latest-news" element={<LatestNews />} />
         <Route path="/accreditation" element={<Accreditation />} />
         <Route path="/contact" element={<Contact />} />

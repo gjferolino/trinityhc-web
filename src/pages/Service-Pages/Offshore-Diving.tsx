@@ -149,7 +149,7 @@ const OffshoreDiving = () => (
               </div>
               <div className="col-md-4 p-3">
                 <p className="text-color-blue">Useful Link</p>
-                <p className="text-color-blue">OEUK</p>
+                <p className="no-margin-bottom text-color-blue">OEUK</p>
                 <p className="text-color-grey">
                   https://oeuk.org.uk/oeuk-register-of-examining-uk-doctors/
                 </p>

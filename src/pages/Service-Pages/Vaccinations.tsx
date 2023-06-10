@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import constructionImage from '../assets/underconstruction.png';
+import constructionImage from '../../assets/underconstruction.png';
 
 const Vaccinations = () => (
   <Container className="text-center">
