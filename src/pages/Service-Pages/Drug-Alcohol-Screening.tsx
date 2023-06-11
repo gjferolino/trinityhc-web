@@ -111,6 +111,7 @@ const DrugAlcoholScreen = () => (
           <div className="row">
             <h5 className="text-color-red align-center">Drug Test Available</h5>
             <div className="spacer"></div>
+            <div className="col-md-1"></div>
             <div className="col-md-2"></div>
             <div className="col-md-2">
               <ul className="text-color-blue-bold">
@@ -122,7 +123,7 @@ const DrugAlcoholScreen = () => (
               </ul>
             </div>
             <div className="col-md-2">
-              <ul className="text-color-blue">
+              <ul className="text-color-blue-bold">
                 <li>MDMA</li>
                 <li>Methamphetamines</li>
                 <li>Methadone</li>
@@ -131,7 +132,7 @@ const DrugAlcoholScreen = () => (
               </ul>
             </div>
             <div className="col-md-2">
-              <ul className="text-color-blue">
+              <ul className="text-color-blue-bold">
                 <li>Oxycodone</li>
                 <li>Phencyclidine</li>
                 <li>Propoxyphene</li>
@@ -139,10 +140,14 @@ const DrugAlcoholScreen = () => (
                 <li>6-Acetylmorphine</li>
               </ul>
             </div>
+            <div className="col-md-2"></div>
+            <div className="col-md-1">
+              <img src={drugIcon} alt="icon" className="overlay-image" />
+            </div>
           </div>
-          <div className="col-md-4 p-3 align-right">
-            <img src={drugIcon} alt="icon" className="img-100" />
-          </div>
+          <div className="spacer"></div>
+          <div className="spacer"></div>
+          <div className="spacer"></div>
         </div>
       </div>
     </Container>

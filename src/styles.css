@@ -53,6 +53,108 @@ a.dropdown-item {
   cursor: pointer;
 }
 
+.small-image {
+  width: 200px;
+  height: auto; 
+}
+
+.image-fluid {
+  max-width: 100%;
+  height: auto; 
+}
+
+@media (max-width: 576px) {
+  .small-image {
+      width: 130px; /* Or any size you prefer */
+      height: auto; /* Keep the original aspect ratio */
+  }
+}
+
+.overlay-image {
+  transform: translate(50%, -53%) !important;
+  position: absolute;
+  left: 88%;
+  height: 220px!important;
+  width: 180px;
+}
+
+@media (max-width: 2340px) {
+  .overlay-image {
+    left: 85%;
+  }
+}
+
+@media (max-width: 1880px) {
+  .overlay-image {
+    left: 83%;
+  }
+}
+
+@media (max-width: 1626px) {
+  .overlay-image {
+    left: 80%;
+  }
+}
+
+@media (max-width: 1359px) {
+  .overlay-image {
+    left: 75%;
+  }
+}
+
+@media (max-width: 1097px) {
+  .overlay-image {
+    left: 70%;
+  }
+}
+
+@media (max-width: 885px) {
+  .overlay-image {
+    left: 65%;
+  }
+}
+
+@media (max-width: 750px) {
+  .overlay-image {
+    left: 60%;
+    transform: translate(50%, -238%) !important;
+  }
+}
+
+@media (max-width: 674px) {
+  .overlay-image {
+    left: 50%;
+    transform: translate(50%, -238%) !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .overlay-image {
+    left: 50%;
+    transform: translate(50%, -238%) !important;
+    height: 220px!important;
+    width: 160px;
+  }
+}
+
+@media (max-width: 476px) {
+  .overlay-image {
+    left: 50%;
+    transform: translate(50%, -268%) !important;
+    height: 200px!important;
+    width: 140px;
+  }
+}
+
+@media (max-width: 414px) {
+  .overlay-image {
+    left: 55%;
+    transform: translate(50%, -298%) !important;
+    height: 180px!important;
+    width: 120px;
+  }
+}
+
 .overlay-button-test-2 {
   transform: translate(-50%, -80%) !important;
   position: absolute;
@@ -484,6 +586,11 @@ a.dropdown-item {
   color: #124e91;
 }
 
+.about-txt {
+  color: #124e91;
+  font-weight: bold;
+}
+
 .description {
   font-size: 16px;
   color: #124e91;
@@ -581,4 +688,15 @@ a.nav-link.active.nav-link {
 
 a.nav-link.nav-link {
   padding: 10px;
+}
+
+/*UL LIST*/
+ul.text-color-blue-bold {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul.text-color-blue-bold li::before {
+  content: "• ";
 }
