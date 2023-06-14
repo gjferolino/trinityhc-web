@@ -47,7 +47,7 @@ const OffshoreDiving = () => (
               <li>Petronas Offshore Medical Examination</li>
               <li>
                 PTTEP (Thailand) Petronas • ENI • Caligali • Aramco • PT Timas •
-                Qatargas • Shell
+                Qatargas • Shell • Medco
               </li>
               <li>Fitness to Undertake Underwater EBS training (OEUK)</li>
               <li>

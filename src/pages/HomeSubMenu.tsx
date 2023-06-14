@@ -118,33 +118,35 @@ const HomeSubMenu = () => (
       </div>
     </div>
     <div className="row div-who-we-serve text-color-blue">
-      <div className="col align-left">
+    <div className="col-md-2 align-left"></div>
+      <div className="col-md-3 align-left">
         <br />
-        <ul className="text-color-grey">
-          <li>Fitness to work</li>
-          <li>Return to Work assessment</li>
-          <li>Dealing with employee queries on health</li>
+        <ul className="text-color-blue-bold-2">
+          <li>Oil and Gas industry</li>
+          <li>Maritime industry</li>
+          <li>Banking and Finance industry</li>
         </ul>
         <br />
       </div>
-      <div className="col align-left">
+      <div className="col-md-3 align-left">
         <br />
-        <ul className="text-color-grey">
-          <li>Fitness to work</li>
-          <li>Return to Work assessment</li>
-          <li>Dealing with employee queries on health</li>
+        <ul className="text-color-blue-bold-2 ">
+          <li>Aerospace industry</li>
+          <li>Pharmaceutical industry</li>
+          <li>Semi-Conductor industry</li>
         </ul>
         <br />
       </div>
-      <div className="col align-left">
+      <div className="col-md-3 align-left">
         <br />
-        <ul className="text-color-grey">
-          <li>Fitness to work</li>
-          <li>Return to Work assessment</li>
-          <li>Dealing with employee queries on health</li>
+        <ul className="text-color-blue-bold-2">
+          <li>Food and beverage industry</li>
+          <li>Manufacturing industry</li>
+          <li>Construction industry</li>
         </ul>
         <br />
       </div>
+      <div className="col-md-1 align-left"></div>
     </div>
     <div className="row div-latest-news">
       <div className="col-lg-12">

@@ -364,6 +364,13 @@ a.dropdown-item {
   color: #124e91;
   font-weight: bold;
 }
+
+.text-color-blue-bold-2{
+  color: #124e91;
+  font-weight: bold;
+  text-align: left;
+}
+
 .text-color-red {
   color: #9f1d21;
 }
