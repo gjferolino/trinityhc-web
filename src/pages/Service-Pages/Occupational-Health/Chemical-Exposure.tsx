@@ -45,6 +45,9 @@ const ChemicalExposure = () => (
                   <li>Fluoride</li>
                   <li>Lead and Its Compounds</li>
                   <li>Manganese</li>
+                  <li>NON WSH</li>
+                  <li>Chromium</li>
+                  <li>Chloride</li>
                 </ul>
                 <ul className="col-md-6 text-color-blue">
                   <li>Mercury and Its Compounds</li>
