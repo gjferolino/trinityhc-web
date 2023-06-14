@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trinityhc-web/static/css/main.86c41b1d.css",
-    "main.js": "/trinityhc-web/static/js/main.cedce24a.js",
+    "main.css": "/trinityhc-web/static/css/main.19e7adf2.css",
+    "main.js": "/trinityhc-web/static/js/main.190bb6a5.js",
     "static/js/787.fd6d3a18.chunk.js": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js",
     "static/media/ship.png": "/trinityhc-web/static/media/ship.582e834e5b376add02bc.png",
     "static/media/oil-platform.png": "/trinityhc-web/static/media/oil-platform.e19b2f42a01fd10cf2dd.png",
@@ -33,6 +33,8 @@
     "static/media/blood-test.png": "/trinityhc-web/static/media/blood-test.c5c69162908458b4d2d0.png",
     "static/media/CF_Drug & Alcohol Screen.png": "/trinityhc-web/static/media/CF_Drug & Alcohol Screen.5dc6d6612ceb1448d70b.png",
     "static/media/underconstruction.png": "/trinityhc-web/static/media/underconstruction.8d443dcded5158b6e1cc.png",
+    "static/media/Centrale_Sans_Regular.otf": "/trinityhc-web/static/media/Centrale_Sans_Regular.7eb80c414eff49ce5b1b.otf",
+    "static/media/CentraleSans-Bold.ttf": "/trinityhc-web/static/media/CentraleSans-Bold.0b0a07a33c3323a054dd.ttf",
     "static/media/Icon_Fitness To Work.png": "/trinityhc-web/static/media/Icon_Fitness To Work.2c71b8f3757bba966ea0.png",
     "static/media/Icon_Offshore & Diving.png": "/trinityhc-web/static/media/Icon_Offshore & Diving.43bea18bff607e2eacad.png",
     "static/media/Icon_Hearing & Noise Monitoring.png": "/trinityhc-web/static/media/Icon_Hearing & Noise Monitoring.1906f9e3ae4fb083aa7f.png",
@@ -47,12 +49,12 @@
     "static/media/maritime-icon.png": "/trinityhc-web/static/media/maritime-icon.8ab4b854ca384a6a8f56.png",
     "static/media/drug-icon.png": "/trinityhc-web/static/media/drug-icon.d8430aee55d7fe8efada.png",
     "index.html": "/trinityhc-web/index.html",
-    "main.86c41b1d.css.map": "/trinityhc-web/static/css/main.86c41b1d.css.map",
-    "main.cedce24a.js.map": "/trinityhc-web/static/js/main.cedce24a.js.map",
+    "main.19e7adf2.css.map": "/trinityhc-web/static/css/main.19e7adf2.css.map",
+    "main.190bb6a5.js.map": "/trinityhc-web/static/js/main.190bb6a5.js.map",
     "787.fd6d3a18.chunk.js.map": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86c41b1d.css",
-    "static/js/main.cedce24a.js"
+    "static/css/main.19e7adf2.css",
+    "static/js/main.190bb6a5.js"
   ]
 }
