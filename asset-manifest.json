@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trinityhc-web/static/css/main.19e7adf2.css",
-    "main.js": "/trinityhc-web/static/js/main.190bb6a5.js",
+    "main.js": "/trinityhc-web/static/js/main.30613ad0.js",
     "static/js/787.fd6d3a18.chunk.js": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js",
     "static/media/ship.png": "/trinityhc-web/static/media/ship.582e834e5b376add02bc.png",
     "static/media/oil-platform.png": "/trinityhc-web/static/media/oil-platform.e19b2f42a01fd10cf2dd.png",
@@ -50,11 +50,11 @@
     "static/media/drug-icon.png": "/trinityhc-web/static/media/drug-icon.d8430aee55d7fe8efada.png",
     "index.html": "/trinityhc-web/index.html",
     "main.19e7adf2.css.map": "/trinityhc-web/static/css/main.19e7adf2.css.map",
-    "main.190bb6a5.js.map": "/trinityhc-web/static/js/main.190bb6a5.js.map",
+    "main.30613ad0.js.map": "/trinityhc-web/static/js/main.30613ad0.js.map",
     "787.fd6d3a18.chunk.js.map": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19e7adf2.css",
-    "static/js/main.190bb6a5.js"
+    "static/js/main.30613ad0.js"
   ]
 }
