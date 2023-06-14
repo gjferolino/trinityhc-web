@@ -23,7 +23,7 @@ const Home = () => (
       <div className="content-container">
         <div className="spacer"></div>
         <div className="spacer"></div>
-        <h1 className="title">Welcome to Trinity Medical Group</h1>
+        <h1 className="title bold-text">Welcome to Trinity Medical Group</h1>
         <div className="spacer"></div>
         <p className="description">
           Our clinics are strategically located around Singapore and we have
@@ -53,7 +53,7 @@ const Home = () => (
             />
           </Link>
           <div className="spacer"></div>
-          <h5 className="about-txt">Occupational Health</h5>
+          <h5 className="about-txt-2">Occupational Health</h5>
           <div className="spacer"></div>
         </div>
         <div className="col-md-2 col-sm-4 col-4 p-3">
@@ -65,7 +65,7 @@ const Home = () => (
             />
           </Link>
           <div className="spacer"></div>
-          <h5 className="about-txt">Maritime & Seafaring</h5>
+          <h5 className="about-txt-2">Maritime & Seafaring</h5>
           <div className="spacer"></div>
         </div>
         <div className="col-md-2 col-sm-4 col-4 p-3">
@@ -77,7 +77,7 @@ const Home = () => (
             />
           </Link>
           <div className="spacer"></div>
-          <h5 className="about-txt">Drug & Alcohol Screening</h5>
+          <h5 className="about-txt-2">Drug & Alcohol Screening</h5>
           <div className="spacer"></div>
         </div>
         <div className="col-md-2 col-sm-6 col-6 p-3">
@@ -89,7 +89,7 @@ const Home = () => (
             />
           </Link>
           <div className="spacer"></div>
-          <h5 className="about-txt">Offshore & Diving</h5>
+          <h5 className="about-txt-2">Offshore & Diving</h5>
           <div className="spacer"></div>
         </div>
         <div className="col-md-2 col-sm-6 col-6 d-md-none p-3">
@@ -101,7 +101,7 @@ const Home = () => (
             />
           </Link>
           <div className="spacer"></div>
-          <h5 className="about-txt">Fitness To Work</h5>
+          <h5 className="about-txt-2">Fitness To Work</h5>
           <div className="spacer"></div>
         </div>
       </div>
@@ -115,7 +115,7 @@ const Home = () => (
             />
           </Link>
           <div className="spacer"></div>
-          <h5 className="about-txt">Fitness To Work</h5>
+          <h5 className="about-txt-2">Fitness To Work</h5>
           <div className="spacer"></div>
         </div>
         <div className="col-md-2 col-sm-6 col-6 p-3">
@@ -127,7 +127,7 @@ const Home = () => (
             />
           </Link>
           <div className="spacer"></div>
-          <h5 className="about-txt">Hearing & Noise Monitoring</h5>
+          <h5 className="about-txt-2">Hearing & Noise Monitoring</h5>
           <div className="spacer"></div>
         </div>
         <div className="col-md-2 col-sm-6 col-6 p-3">
@@ -139,7 +139,7 @@ const Home = () => (
             />
           </Link>
           <div className="spacer"></div>
-          <h5 className="about-txt">Health Screening</h5>
+          <h5 className="about-txt-2">Health Screening</h5>
           <div className="spacer"></div>
         </div>
       </div>

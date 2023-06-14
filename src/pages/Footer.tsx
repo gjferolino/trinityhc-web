@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <Container className="home-custom-container-image">
       <Button className="overlay-button-test">
-        <p className="custom-text-margin"><b>Get In Touch With Us</b></p>
+        <p className="custom-text-margin"><h3>Get In Touch With Us</h3></p>
       </Button>
       <div className="row no-gutters background-div">
         <div className="col-md-4">

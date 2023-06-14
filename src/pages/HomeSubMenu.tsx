@@ -12,9 +12,8 @@ const HomeSubMenu = () => (
     <div className="div-why-us background-gradient">
       <div className="row">
         <div className="col-md-6 p-4">
-          <h1 className="align-left text-color-red">Why Us?</h1>
+          <h1 className="align-left text-color-red other-title">Why Us?</h1>
           <p className="align-left text-color-blue">
-            <br />
             <b>Full Facilities Centres</b>
             <br />
             Our one-stop medical centres are fully equipped with X-rays,
@@ -66,7 +65,7 @@ const HomeSubMenu = () => (
     <div className="div-why-us background-gradient">
       <div className="row">
         <div className="col-md-6 p-4">
-          <h1 className="align-left text-color-red">How We Can Help?</h1>
+          <h1 className="align-left text-color-red other-title">How We Can Help?</h1>
           <img
             src={checkUpImage}
             alt="icon"
