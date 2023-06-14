@@ -544,6 +544,18 @@ a.dropdown-item {
   );
 }
 
+.carousel-item {
+  transition-duration: 0s !important;
+}
+
+/* .carousel-item-left,
+.carousel-item-right,
+.carousel-item-next,
+.carousel-item-prev {
+  transform: none!important;
+  transition: none!important;
+} */
+
 .background-blue {
   background: #d0dce9;
 }

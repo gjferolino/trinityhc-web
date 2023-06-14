@@ -163,7 +163,7 @@ const HomeSubMenu = () => (
                   />
                   <div className="text-padding text-color-blue">
                     <p className="align-left">
-                      <b>Lorem Ipsum Dolor Sit Amet Consectetur</b>
+                      <b>Lorem Ipsum Dolor Sit Amet Consectetur (1)</b>
                       <br />
                       Sed euismod, neque eu convallis molestie, tortor augue
                       tempor tortor, eget suscipit turpis eros quis purus.
@@ -180,7 +180,7 @@ const HomeSubMenu = () => (
                   />
                   <div className="text-padding text-color-blue">
                     <p className="align-left">
-                      <b>Lorem Ipsum Dolor Sit Amet Consectetur</b>
+                      <b>Lorem Ipsum Dolor Sit Amet Consectetur (2)</b>
                       <br />
                       Sed euismod, neque eu convallis molestie, tortor augue
                       tempor tortor, eget suscipit turpis eros quis purus.
@@ -197,7 +197,7 @@ const HomeSubMenu = () => (
                   />
                   <div className="text-padding text-color-blue">
                     <p className="align-left">
-                      <b>Lorem Ipsum Dolor Sit Amet Consectetur</b>
+                      <b>Lorem Ipsum Dolor Sit Amet Consectetur (3)</b>
                       <br />
                       Sed euismod, neque eu convallis molestie, tortor augue
                       tempor tortor, eget suscipit turpis eros quis purus.
@@ -212,13 +212,30 @@ const HomeSubMenu = () => (
               <Row>
                 <Col className="col-md-4">
                   <img
+                    src={carouselImage3}
+                    alt="Company logo"
+                    className="d-block w-100"
+                  />
+                  <div className="text-padding text-color-blue">
+                    <p className="align-left">
+                      <b>Lorem Ipsum Dolor Sit Amet Consectetur (4)</b>
+                      <br />
+                      Sed euismod, neque eu convallis molestie, tortor augue
+                      tempor tortor, eget suscipit turpis eros quis purus.
+                      <br /> <br />
+                      <b>Read More</b>
+                    </p>
+                  </div>
+                </Col>
+                <Col className="col-md-4">
+                  <img
                     src={carouselImage1}
                     alt="Company logo"
                     className="d-block w-100"
                   />
                   <div className="text-padding text-color-blue">
                     <p className="align-left">
-                      <b>Lorem Ipsum Dolor Sit Amet Consectetur</b>
+                      <b>Lorem Ipsum Dolor Sit Amet Consectetur (5)</b>
                       <br />
                       Sed euismod, neque eu convallis molestie, tortor augue
                       tempor tortor, eget suscipit turpis eros quis purus.
@@ -235,24 +252,7 @@ const HomeSubMenu = () => (
                   />
                   <div className="text-padding text-color-blue">
                     <p className="align-left">
-                      <b>Lorem Ipsum Dolor Sit Amet Consectetur</b>
-                      <br />
-                      Sed euismod, neque eu convallis molestie, tortor augue
-                      tempor tortor, eget suscipit turpis eros quis purus.
-                      <br /> <br />
-                      <b>Read More</b>
-                    </p>
-                  </div>
-                </Col>
-                <Col className="col-md-4">
-                  <img
-                    src={carouselImage3}
-                    alt="Company logo"
-                    className="d-block w-100"
-                  />
-                  <div className="text-padding text-color-blue">
-                    <p className="align-left">
-                      <b>Lorem Ipsum Dolor Sit Amet Consectetur</b>
+                      <b>Lorem Ipsum Dolor Sit Amet Consectetur (6)</b>
                       <br />
                       Sed euismod, neque eu convallis molestie, tortor augue
                       tempor tortor, eget suscipit turpis eros quis purus.
