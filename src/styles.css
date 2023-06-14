@@ -526,7 +526,7 @@ a.dropdown-item {
 }
 
 .div-who-we-serve {
-  background: #fecd67;
+  background: #fef0d1;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -539,10 +539,11 @@ a.dropdown-item {
 .background-gradient {
   background: linear-gradient(
     to bottom,
-    rgba(128, 128, 128, 0.2) 0%,
-    rgba(255, 255, 255, 0.2) 90%
+    rgba(128, 128, 128, 0.3) 0%,
+    rgba(255, 255, 255, 1) 15%
   );
 }
+
 .background-blue {
   background: #d0dce9;
 }

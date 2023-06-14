@@ -62,7 +62,8 @@ const HomeSubMenu = () => (
           </p>
         </div>
       </div>
-
+    </div>
+    <div className="div-why-us background-gradient">
       <div className="row">
         <div className="col-md-6 p-4">
           <h1 className="align-left text-color-red">How We Can Help?</h1>
