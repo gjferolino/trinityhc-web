@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trinityhc-web/static/css/main.3115f431.css",
-    "main.js": "/trinityhc-web/static/js/main.d5952ab8.js",
+    "main.css": "/trinityhc-web/static/css/main.78381965.css",
+    "main.js": "/trinityhc-web/static/js/main.2a453160.js",
     "static/js/787.fd6d3a18.chunk.js": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js",
     "static/media/ship.png": "/trinityhc-web/static/media/ship.582e834e5b376add02bc.png",
     "static/media/oil-platform.png": "/trinityhc-web/static/media/oil-platform.e19b2f42a01fd10cf2dd.png",
@@ -47,12 +47,12 @@
     "static/media/maritime-icon.png": "/trinityhc-web/static/media/maritime-icon.8ab4b854ca384a6a8f56.png",
     "static/media/drug-icon.png": "/trinityhc-web/static/media/drug-icon.d8430aee55d7fe8efada.png",
     "index.html": "/trinityhc-web/index.html",
-    "main.3115f431.css.map": "/trinityhc-web/static/css/main.3115f431.css.map",
-    "main.d5952ab8.js.map": "/trinityhc-web/static/js/main.d5952ab8.js.map",
+    "main.78381965.css.map": "/trinityhc-web/static/css/main.78381965.css.map",
+    "main.2a453160.js.map": "/trinityhc-web/static/js/main.2a453160.js.map",
     "787.fd6d3a18.chunk.js.map": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3115f431.css",
-    "static/js/main.d5952ab8.js"
+    "static/css/main.78381965.css",
+    "static/js/main.2a453160.js"
   ]
 }
