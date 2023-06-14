@@ -117,22 +117,22 @@ const App = () => {
                   <NavDropdown.Item as={Link} to="/services/corporate-services">
                     CORPORATE SERVICES
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/services/corporate/pre-employment">
+                  <NavDropdown.Item as={Link} to="/services/pre-employment">
                     <ul className="no-margin-bottom">
                       <li>Pre-employment/Re-employment Medical Examination</li>
                     </ul>
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/services/corporate/fitness-to-work">
+                  <NavDropdown.Item as={Link} to="/services/fitness-to-work">
                     <ul className="no-margin-bottom">
                       <li>Fitness To Work Assessment</li>
                     </ul>
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/services/corporate/er-support">
+                  <NavDropdown.Item as={Link} to="/services/er-support">
                     <ul className="no-margin-bottom">
                       <li>Emergency Response Support</li>
                     </ul>
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/services/corporate/vaccinations">
+                  <NavDropdown.Item as={Link} to="/services/vaccinations">
                     <ul className="no-margin-bottom">
                       <li>Vaccinations</li>
                     </ul>
