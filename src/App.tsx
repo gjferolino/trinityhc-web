@@ -292,7 +292,7 @@ const App = () => {
             HEALTH SCREENING
           </NavDropdown.Item>
           <NavDropdown.Item href="#action/3.8">TRAVEL HEALTH</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.9">VACCINATIONS</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/services/vaccinations">VACCINATIONS</NavDropdown.Item>
         </NavDropdown>
         <Nav.Link
           as={Link}
@@ -338,6 +338,7 @@ const App = () => {
         <Route path="/services/offshore-diving" element={<OffshoreDiving />} />
         <Route path="/services/maritime-seafaring" element={<MaritimeSeafaring />} />
         <Route path="/services/drug-alcohol-screening" element={<DrugAlcoholScreen />} />
+        <Route path="/services/vaccinations" element={<Vaccinations />} />
         <Route path="/latest-news" element={<LatestNews />} />
         <Route path="/accreditation" element={<Accreditation />} />
         <Route path="/contact" element={<Contact />} />
