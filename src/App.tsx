@@ -117,7 +117,7 @@ const App = () => {
                   <NavDropdown.Item as={Link} to="/services/corporate-services">
                     CORPORATE SERVICES
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/services/pre-employment">
+                  <NavDropdown.Item as={Link} to="/services/pre-re-employment">
                     <ul className="no-margin-bottom">
                       <li>Pre-employment/Re-employment Medical Examination</li>
                     </ul>
@@ -246,7 +246,7 @@ const App = () => {
           <NavDropdown.Item href="#action/3.2">
             CORPORATE SERVICES
           </NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2.1">
+          <NavDropdown.Item as={Link} to="/services/pre-re-employment">
             <ul className="no-margin-bottom">
               <li>Pre-employment/Re-employment Medical Examination</li>
             </ul>
@@ -291,7 +291,7 @@ const App = () => {
           <NavDropdown.Item href="#action/3.7">
             HEALTH SCREENING
           </NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.8">TRAVEL HEALTH</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/services/travel-health">TRAVEL HEALTH</NavDropdown.Item>
           <NavDropdown.Item as={Link} to="/services/vaccinations">VACCINATIONS</NavDropdown.Item>
         </NavDropdown>
         <Nav.Link
@@ -339,6 +339,8 @@ const App = () => {
         <Route path="/services/maritime-seafaring" element={<MaritimeSeafaring />} />
         <Route path="/services/drug-alcohol-screening" element={<DrugAlcoholScreen />} />
         <Route path="/services/vaccinations" element={<Vaccinations />} />
+        <Route path="/services/travel-health" element={<TravelHealth />} />
+        <Route path="/services/pre-re-employment" element={<Preemployment />} />
         <Route path="/latest-news" element={<LatestNews />} />
         <Route path="/accreditation" element={<Accreditation />} />
         <Route path="/contact" element={<Contact />} />

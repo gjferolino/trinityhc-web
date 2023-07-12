@@ -459,6 +459,11 @@ a.dropdown-item {
   max-width: 100%;
 }
 
+.custom-image-responsive-3 {
+  height: auto;
+  max-width: 80%;
+}
+
 /* .custom-image-container-3 {
   width: auto;
 } */
