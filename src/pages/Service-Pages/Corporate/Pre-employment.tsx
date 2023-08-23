@@ -125,7 +125,6 @@ const Preemployment = () => (
               <br />
             </div>
           </div>
-          <div className="spacer"></div>
         </div>
         <div className="row">
           <div className="col-md-3 p-3"></div>
@@ -148,6 +147,7 @@ const Preemployment = () => (
             <img src={mhcLogoImg} alt="travel-card" className="img-fluid" />
           </div>
           <div className="col-md-3 p-3"></div>
+          <div className="spacer"></div>
           <div className="spacer"></div>
           <div className="spacer"></div>
           <div className="spacer"></div>

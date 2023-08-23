@@ -392,6 +392,11 @@ a.dropdown-item {
   color: #9f1d21;
 }
 
+.text-color-gray {
+  color:gray;
+}
+
+
 .text-color-grey {
   color: grey;
 }
@@ -464,9 +469,75 @@ a.dropdown-item {
   max-width: 80%;
 }
 
+.custom-image-responsive-4 {
+  height: auto;
+  max-width: 100%;
+  padding: 0% 5% 5% 5%;
+}
+
+
+.image-wrapper {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 530px; 
+}
+
+.overlay-content {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  right: 10%; /* Ensures it takes up to 80% width, leaving 10% padding on each side */
+  color: #124e91;
+  text-align: justify; /* Justify the text */
+  max-width: 80%;
+}
+
+.overlay-content-2 {
+  position: absolute;
+  top: -20%;
+  left: 10%;
+  right: 10%; /* Ensures it takes up to 80% width, leaving 10% padding on each side */
+  color: #124e91;
+  text-align: justify; /* Justify the text */
+  max-width: 80%;
+}
+
+.overlay-content-2 h2 {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.overlay-content-2 p {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+.overlay-content h2 {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.overlay-content p {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+
 /* .custom-image-container-3 {
   width: auto;
 } */
+
+.custom-image-width {
+  width: 100% !important;
+}
 
 .custom-image-container {
   text-align: right;

@@ -127,7 +127,7 @@ const App = () => {
                       <li>Fitness To Work Assessment</li>
                     </ul>
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/services/er-support">
+                  <NavDropdown.Item as={Link} to="/services/emergency-response-support">
                     <ul className="no-margin-bottom">
                       <li>Emergency Response Support</li>
                     </ul>
@@ -256,7 +256,7 @@ const App = () => {
               <li>Fitness To Work Assessment</li>
             </ul>
           </NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2.3">
+          <NavDropdown.Item as={Link} to="/services/emergency-response-support">
             <ul className="no-margin-bottom">
               <li>Emergency Response Support</li>
             </ul>
@@ -288,7 +288,7 @@ const App = () => {
           <NavDropdown.Item as={Link} to="/services/drug-alcohol-screening">
             DRUG & ALCOHOL SCREENING
           </NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.7">
+          <NavDropdown.Item as={Link} to="/services/health-screening">
             HEALTH SCREENING
           </NavDropdown.Item>
           <NavDropdown.Item as={Link} to="/services/travel-health">TRAVEL HEALTH</NavDropdown.Item>
@@ -341,6 +341,8 @@ const App = () => {
         <Route path="/services/vaccinations" element={<Vaccinations />} />
         <Route path="/services/travel-health" element={<TravelHealth />} />
         <Route path="/services/pre-re-employment" element={<Preemployment />} />
+        <Route path="/services/emergency-response-support" element={<EmergencyResponse />} />
+        <Route path="/services/health-screening" element={<HealthScreen />} />
         <Route path="/latest-news" element={<LatestNews />} />
         <Route path="/accreditation" element={<Accreditation />} />
         <Route path="/contact" element={<Contact />} />

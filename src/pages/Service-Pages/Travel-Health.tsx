@@ -9,7 +9,7 @@ const TravelHealth = () => (
       <div className="content-container">
         <div className="spacer"></div>
         <div className="spacer"></div>
-        <h1 className="title">Vaccinations</h1>
+        <h1 className="title">Travel Health</h1>
         <div className="spacer"></div>
         <p className="description">
           Trinity Medical Group provides health assessments, travel health
