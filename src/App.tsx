@@ -114,7 +114,7 @@ const App = () => {
                   <NavDropdown.Item as={Link} to="/services/gp-services">
                     GENERAL PRACTITIONER SERVICES
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/services/corporate-services">
+                  <NavDropdown.Item as={Link} to="/services/pre-re-employment">
                     CORPORATE SERVICES
                   </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/services/pre-re-employment">
@@ -132,12 +132,12 @@ const App = () => {
                       <li>Emergency Response Support</li>
                     </ul>
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/services/vaccinations">
+                  <NavDropdown.Item as={Link} to="/services/corporate-vaccinations">
                     <ul className="no-margin-bottom">
                       <li>Vaccinations</li>
                     </ul>
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
+                  <NavDropdown.Item as={Link} to="/services/chemical-exposure">
                     OCCUPATIONAL HEALTH
                   </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/services/chemical-exposure">
@@ -243,7 +243,7 @@ const App = () => {
           <NavDropdown.Item as={Link} to="/services/gp-services">
             GENERAL PRACTITIONER SERVICES
           </NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">
+          <NavDropdown.Item as={Link} to="/services/pre-re-employment">
             CORPORATE SERVICES
           </NavDropdown.Item>
           <NavDropdown.Item as={Link} to="/services/pre-re-employment">
@@ -261,12 +261,12 @@ const App = () => {
               <li>Emergency Response Support</li>
             </ul>
           </NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2.4">
+          <NavDropdown.Item as={Link} to="/services/corporate-vaccinations">
             <ul className="no-margin-bottom">
               <li>Vaccinations</li>
             </ul>
           </NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">
+          <NavDropdown.Item as={Link} to="/services/chemical-exposure">
             OCCUPATIONAL HEALTH
           </NavDropdown.Item>
           <NavDropdown.Item as={Link} to="/services/chemical-exposure">
@@ -342,6 +342,7 @@ const App = () => {
         <Route path="/services/travel-health" element={<TravelHealth />} />
         <Route path="/services/pre-re-employment" element={<Preemployment />} />
         <Route path="/services/emergency-response-support" element={<EmergencyResponse />} />
+        <Route path="/services/corporate-vaccinations" element={<CorporateVaccination />} />
         <Route path="/services/health-screening" element={<HealthScreen />} />
         <Route path="/latest-news" element={<LatestNews />} />
         <Route path="/accreditation" element={<Accreditation />} />

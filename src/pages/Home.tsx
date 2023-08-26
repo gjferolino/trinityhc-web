@@ -81,7 +81,7 @@ const Home = () => (
           <div className="spacer"></div>
         </div>
         <div className="col-md-2 col-sm-6 col-6 p-3">
-          <Link to="/path-to-navigate-on-click">
+          <Link to="/services/offshore-diving">
             <img
               src={offshoreDivingIcon}
               alt="Offshore & Diving"
@@ -131,7 +131,7 @@ const Home = () => (
           <div className="spacer"></div>
         </div>
         <div className="col-md-2 col-sm-6 col-6 p-3">
-          <Link to="/path-to-navigate-on-click">
+          <Link to="/services/health-screening">
             <img
               src={healthScreeningIcon}
               alt="icon"
