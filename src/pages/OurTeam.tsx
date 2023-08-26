@@ -1,7 +1,7 @@
 import { Container } from 'react-bootstrap';
 import constructionImage from '../assets/underconstruction.png';
 
-const Accreditation = () => (
+const OurTeam = () => (
   <Container className="text-center">
     <div className="spacer"></div>  
     <div className="spacer"></div>  
@@ -14,4 +14,4 @@ const Accreditation = () => (
   </Container>
 );
 
-export default Accreditation;
+export default OurTeam;

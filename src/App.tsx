@@ -11,6 +11,7 @@ import {
 } from "react-bootstrap";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import ClinicalFacilities from "./pages/Clinical-Facilites";
 import GeneralPractitioner from "./pages/Service-Pages/General-Practitioner";
 import FitnessToWork from "./pages/Service-Pages/Corporate/Fitness-to-Work";
 import ChemicalExposure from "./pages/Service-Pages/Occupational-Health/Chemical-Exposure";
@@ -25,7 +26,8 @@ import HealthScreen from "./pages/Service-Pages/Health-Screening";
 import TravelHealth from "./pages/Service-Pages/Travel-Health";
 import Vaccinations from "./pages/Service-Pages/Vaccinations";
 import LatestNews from "./pages/LatestNews";
-import Accreditation from "./pages/Accreditation";
+import GovernmentScheme from "./pages/GovernmentScheme";
+import Others from "./pages/Others";
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
 import logo from "./assets/logo.png";
@@ -33,7 +35,7 @@ import mailIcon from "./assets/mail_icon.png";
 import phoneIcon from "./assets/phone_icon.png";
 import phoneIconV2 from "./assets/phone_icon_2.png";
 import "./styles.css"; // Import the styles.css file
-
+import OurTeam from "./pages/OurTeam";
 
 const App = () => {
   const [show, setShow] = useState(false);
@@ -94,16 +96,23 @@ const App = () => {
                 >
                   HOME
                 </Nav.Link>
-                <Nav.Link
-                  as={Link}
-                  to="/about"
-                  className={`nav-link ${
-                    activeKey === "/about" ? "active" : ""
-                  }`}
+                <NavDropdown
+                  className="nav-link no-padding"
+                  title="ABOUT"
+                  id="collasible-nav-dropdown-about"
+                  active={activeKey === "/about"}
                   onClick={() => handleNavSelect("/about")}
                 >
-                  ABOUT
-                </Nav.Link>
+                  <NavDropdown.Item as={Link} to="/about/overview">
+                    Overview
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/about/our-team">
+                    Our Team
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/about/clinical-facilities">
+                    Clinical Facilities
+                  </NavDropdown.Item>
+                </NavDropdown>
                 <NavDropdown
                   className="nav-link no-padding"
                   title="SERVICES"
@@ -127,12 +136,18 @@ const App = () => {
                       <li>Fitness To Work Assessment</li>
                     </ul>
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/services/emergency-response-support">
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/services/emergency-response-support"
+                  >
                     <ul className="no-margin-bottom">
                       <li>Emergency Response Support</li>
                     </ul>
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/services/corporate-vaccinations">
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/services/corporate-vaccinations"
+                  >
                     <ul className="no-margin-bottom">
                       <li>Vaccinations</li>
                     </ul>
@@ -156,7 +171,10 @@ const App = () => {
                   <NavDropdown.Item as={Link} to="/services/maritime-seafaring">
                     MARITIME & SEAFARING
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/services/drug-alcohol-screening">
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/services/drug-alcohol-screening"
+                  >
                     DRUG & ALCOHOL SCREENING
                   </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/services/health-screening">
@@ -179,16 +197,23 @@ const App = () => {
                 >
                   LATEST NEWS
                 </Nav.Link>
-                <Nav.Link
-                  as={Link}
-                  to="/accreditation"
-                  className={`nav-link ${
-                    activeKey === "/accreditation" ? "active" : ""
-                  }`}
+                <NavDropdown
+                  className="nav-link no-padding"
+                  title="ACCREDITATION"
+                  id="collasible-nav-dropdown-about"
+                  active={activeKey === "/accreditation"}
                   onClick={() => handleNavSelect("/accreditation")}
                 >
-                  ACCREDITATION
-                </Nav.Link>
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/accreditation/government-scheme"
+                  >
+                    Government Schemes
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/accreditation/others">
+                    Others
+                  </NavDropdown.Item>
+                </NavDropdown>
                 <Nav.Link
                   as={Link}
                   to="/contact"
@@ -215,15 +240,24 @@ const App = () => {
         >
           HOME
         </Nav.Link>
-        <Nav.Link
-          as={Link}
-          to="/about"
-          className="nav-link"
+
+        <NavDropdown
+          className="nav-link no-padding"
+          title="ABOUT"
+          id="collasible-nav-dropdown-about"
           active={activeKey === "/about"}
           onClick={() => handleNavSelect("/about")}
         >
-          ABOUT
-        </Nav.Link>
+          <NavDropdown.Item as={Link} to="/about/overview">
+            Overview
+          </NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/about/our-team">
+            Our Team
+          </NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/about/clinical-facilities">
+            Clinical Facilities
+          </NavDropdown.Item>
+        </NavDropdown>
         {/* <Nav.Link
           as={Link}
           to="/services"
@@ -291,8 +325,12 @@ const App = () => {
           <NavDropdown.Item as={Link} to="/services/health-screening">
             HEALTH SCREENING
           </NavDropdown.Item>
-          <NavDropdown.Item as={Link} to="/services/travel-health">TRAVEL HEALTH</NavDropdown.Item>
-          <NavDropdown.Item as={Link} to="/services/vaccinations">VACCINATIONS</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/services/travel-health">
+            TRAVEL HEALTH
+          </NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/services/vaccinations">
+            VACCINATIONS
+          </NavDropdown.Item>
         </NavDropdown>
         <Nav.Link
           as={Link}
@@ -303,15 +341,20 @@ const App = () => {
         >
           LATEST NEWS
         </Nav.Link>
-        <Nav.Link
-          as={Link}
-          to="/accreditation"
-          className="nav-link"
+        <NavDropdown
+          className="nav-link no-padding"
+          title="ACCREDITATION"
+          id="collasible-nav-dropdown-about"
           active={activeKey === "/accreditation"}
           onClick={() => handleNavSelect("/accreditation")}
         >
-          ACCREDITATION
-        </Nav.Link>
+          <NavDropdown.Item as={Link} to="/accreditation/government-scheme">
+            Government Schemes
+          </NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/accreditation/others">
+            Others
+          </NavDropdown.Item>
+        </NavDropdown>
         <Nav.Link
           as={Link}
           to="/contact"
@@ -330,22 +373,46 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about/overview" element={<About />} />
+        <Route path="/about/our-team" element={<OurTeam />} />
+        <Route
+          path="/about/clinical-facilities"
+          element={<ClinicalFacilities />}
+        />
+        <Route
+          path="/accreditation/government-scheme"
+          element={<GovernmentScheme />}
+        />
+        <Route path="/accreditation/others" element={<Others />} />
         <Route path="/services/gp-services" element={<GeneralPractitioner />} />
         <Route path="/services/fitness-to-work" element={<FitnessToWork />} />
-        <Route path="/services/chemical-exposure" element={<ChemicalExposure />} />
+        <Route
+          path="/services/chemical-exposure"
+          element={<ChemicalExposure />}
+        />
         <Route path="/services/hearing-noise" element={<HearingNoise />} />
         <Route path="/services/offshore-diving" element={<OffshoreDiving />} />
-        <Route path="/services/maritime-seafaring" element={<MaritimeSeafaring />} />
-        <Route path="/services/drug-alcohol-screening" element={<DrugAlcoholScreen />} />
+        <Route
+          path="/services/maritime-seafaring"
+          element={<MaritimeSeafaring />}
+        />
+        <Route
+          path="/services/drug-alcohol-screening"
+          element={<DrugAlcoholScreen />}
+        />
         <Route path="/services/vaccinations" element={<Vaccinations />} />
         <Route path="/services/travel-health" element={<TravelHealth />} />
         <Route path="/services/pre-re-employment" element={<Preemployment />} />
-        <Route path="/services/emergency-response-support" element={<EmergencyResponse />} />
-        <Route path="/services/corporate-vaccinations" element={<CorporateVaccination />} />
+        <Route
+          path="/services/emergency-response-support"
+          element={<EmergencyResponse />}
+        />
+        <Route
+          path="/services/corporate-vaccinations"
+          element={<CorporateVaccination />}
+        />
         <Route path="/services/health-screening" element={<HealthScreen />} />
         <Route path="/latest-news" element={<LatestNews />} />
-        <Route path="/accreditation" element={<Accreditation />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
 

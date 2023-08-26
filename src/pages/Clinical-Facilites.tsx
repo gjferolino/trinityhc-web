@@ -11,7 +11,7 @@ import xraysImg from '../assets/CF_Chest Xray.png';
 import spirometryImg from '../assets/CF_Spiro.png';
 import drugAlcoholImg from '../assets/CF_Drug & Alcohol Screen.png';
 
-const About = () => (
+const ClinicalFacilities = () => (
   <div>
     <Container className="home-custom-container-image text-center">
       <div className="content-container">
@@ -114,4 +114,4 @@ const About = () => (
   </div>
 );
 
-export default About;
+export default ClinicalFacilities;
