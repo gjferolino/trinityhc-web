@@ -1,8 +1,5 @@
 import { Container, Carousel, Row, Col, Button } from "react-bootstrap";
-import logo from "../assets/logo.png";
-import carouselImage1 from "../assets/carousell_image_1.png";
-import carouselImage2 from "../assets/carousell_image_2.png";
-import carouselImage3 from "../assets/carousell_image_3.png";
+import constructionImage from "../assets/underconstruction.png";
 import xrayImage from "../assets/CF_Chest Xray.png";
 import treadmillImage from "../assets/CF_Treadmill.png";
 import checkUpImage from "../assets/CheckUp.png";
@@ -65,7 +62,9 @@ const HomeSubMenu = () => (
     <div className="div-why-us background-gradient">
       <div className="row">
         <div className="col-md-6 p-4">
-          <h1 className="align-left text-color-red other-title">How We Can Help?</h1>
+          <h1 className="align-left text-color-red other-title">
+            How We Can Help?
+          </h1>
           <img
             src={checkUpImage}
             alt="icon"
@@ -75,9 +74,11 @@ const HomeSubMenu = () => (
         <div className="col-md-6 p-4">
           <p className="align-left text-color-blue">
             <br />
-            <b>We recognize that each patient, company or organization has their
-            own different medical requirements. Our team are committed to learn,
-            understand and fulfil these needs.</b>
+            <b>
+              We recognize that each patient, company or organization has their
+              own different medical requirements. Our team are committed to
+              learn, understand and fulfil these needs.
+            </b>
           </p>
           <p className="align-left text-color-blue">
             <br />
@@ -117,7 +118,7 @@ const HomeSubMenu = () => (
       </div>
     </div>
     <div className="row div-who-we-serve text-color-blue">
-    <div className="col-md-2 align-left"></div>
+      <div className="col-md-2 align-left"></div>
       <div className="col-md-3 align-left">
         <br />
         <ul className="text-color-blue-bold-2">
@@ -152,7 +153,16 @@ const HomeSubMenu = () => (
         <br />
         <h1 className="align-center text-color-red">Latest News</h1>
         <br />
-        <div className="carousel-wrapper">
+        {/* Remove Later */}
+        <div className="spacer"></div>
+        <div className="centered-container">
+          <img
+            src={constructionImage}
+            alt="Under Construction"
+            className="construction-image-home"
+          />
+        </div>
+        {/* <div className="carousel-wrapper">
           <Carousel indicators={false} controls={true}>
             <Carousel.Item>
               <Row>
@@ -268,7 +278,7 @@ const HomeSubMenu = () => (
           <div className="spacer"></div>
           <div className="spacer"></div>
           <div className="spacer"></div>
-        </div>
+        </div> */}
       </div>
     </div>
   </Container>

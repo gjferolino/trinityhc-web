@@ -407,6 +407,18 @@ a.dropdown-item {
 }
 
 /*UNDER CONSTRUCTION*/
+.centered-container {
+  display: flex;           /* Enables flexbox */
+  justify-content: center; /* Horizontally centers the content */
+  align-items: center;     /* Vertically centers the content */
+  height: 40%;            /* Take full height. You can adjust this if needed */
+}
+
+.construction-image-home {
+  max-width: 100%;         /* Ensure the image doesn't overflow its container */
+  height: auto;
+}
+
 .construction-image {
   width: 60%;
   height: auto;
