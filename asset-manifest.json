@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trinityhc-web/static/css/main.99da3e4e.css",
-    "main.js": "/trinityhc-web/static/js/main.74a1d0a3.js",
+    "main.css": "/trinityhc-web/static/css/main.d739e1ee.css",
+    "main.js": "/trinityhc-web/static/js/main.b41a6b3e.js",
     "static/js/787.fd6d3a18.chunk.js": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js",
     "static/media/ship.png": "/trinityhc-web/static/media/ship.582e834e5b376add02bc.png",
     "static/media/oil-platform.png": "/trinityhc-web/static/media/oil-platform.e19b2f42a01fd10cf2dd.png",
@@ -27,11 +27,8 @@
     "static/media/medi_blocks_4.png": "/trinityhc-web/static/media/medi_blocks_4.8d6ff4f31c01d040f71d.png",
     "static/media/travel_card.png": "/trinityhc-web/static/media/travel_card.15315b1234dbcd4386fd.png",
     "static/media/cells.png": "/trinityhc-web/static/media/cells.a97de2d124d244efd0c1.png",
-    "static/media/carousell_image_1.png": "/trinityhc-web/static/media/carousell_image_1.a3eb7d469feca2828010.png",
     "static/media/warehouse-worker.png": "/trinityhc-web/static/media/warehouse-worker.bdd2575fde526b0099da.png",
-    "static/media/carousell_image_2.png": "/trinityhc-web/static/media/carousell_image_2.894f03476791866bfc80.png",
     "static/media/CF_Blood Pressure.png": "/trinityhc-web/static/media/CF_Blood Pressure.716d0072460473b458a5.png",
-    "static/media/carousell_image_3.png": "/trinityhc-web/static/media/carousell_image_3.a062a65ff3b493304482.png",
     "static/media/chem-worker.png": "/trinityhc-web/static/media/chem-worker.b189bbd372c2f589d4c2.png",
     "static/media/audiometry.png": "/trinityhc-web/static/media/audiometry.035aaec88fe70d2e6d3a.png",
     "static/media/CF_Vision Tests.png": "/trinityhc-web/static/media/CF_Vision Tests.250793a105621aca091f.png",
@@ -65,12 +62,12 @@
     "static/media/maritime-icon.png": "/trinityhc-web/static/media/maritime-icon.8ab4b854ca384a6a8f56.png",
     "static/media/drug-icon.png": "/trinityhc-web/static/media/drug-icon.d8430aee55d7fe8efada.png",
     "index.html": "/trinityhc-web/index.html",
-    "main.99da3e4e.css.map": "/trinityhc-web/static/css/main.99da3e4e.css.map",
-    "main.74a1d0a3.js.map": "/trinityhc-web/static/js/main.74a1d0a3.js.map",
+    "main.d739e1ee.css.map": "/trinityhc-web/static/css/main.d739e1ee.css.map",
+    "main.b41a6b3e.js.map": "/trinityhc-web/static/js/main.b41a6b3e.js.map",
     "787.fd6d3a18.chunk.js.map": "/trinityhc-web/static/js/787.fd6d3a18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99da3e4e.css",
-    "static/js/main.74a1d0a3.js"
+    "static/css/main.d739e1ee.css",
+    "static/js/main.b41a6b3e.js"
   ]
 }
