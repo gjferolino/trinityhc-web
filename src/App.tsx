@@ -146,7 +146,7 @@ const App = () => {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     as={Link}
-                    to="/services/corporate-vaccinations"
+                    to="/services/vaccinations"
                   >
                     <ul className="no-margin-bottom">
                       <li>Vaccinations</li>
@@ -295,7 +295,7 @@ const App = () => {
               <li>Emergency Response Support</li>
             </ul>
           </NavDropdown.Item>
-          <NavDropdown.Item as={Link} to="/services/corporate-vaccinations">
+          <NavDropdown.Item as={Link} to="/services/vaccinations">
             <ul className="no-margin-bottom">
               <li>Vaccinations</li>
             </ul>
@@ -408,7 +408,7 @@ const App = () => {
           element={<EmergencyResponse />}
         />
         <Route
-          path="/services/corporate-vaccinations"
+          path="/services/vaccinations"
           element={<CorporateVaccination />}
         />
         <Route path="/services/health-screening" element={<HealthScreen />} />
